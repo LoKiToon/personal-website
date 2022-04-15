@@ -1,3 +1,3 @@
 # personal-website
 
-this is a website that's a work in progress
+a personal website i am working on
