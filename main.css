@@ -1,0 +1,32 @@
+html {
+    background: #111111;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #191919;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 1 auto;
+    padding: 1em 2em 1em;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 50px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+}
