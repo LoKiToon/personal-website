@@ -94,3 +94,20 @@ li {
     margin: 15px;
     line-height: 1;
 }
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #222;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 2mm;
+    padding: 2mm 2mm 2mm;
+    transition: background 0.1s;
+}
+
+.button:hover {
+    background: #333
+}
