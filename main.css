@@ -71,9 +71,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: 100;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 a {
     color: #fff;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footertext {
+    font-family: monospace;
+}
+
+li {
+    font-size: 18px;
 }
