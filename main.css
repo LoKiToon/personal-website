@@ -139,3 +139,28 @@ li {
     transform: translate(-50%);
     text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
+
+.seperator {
+    background: #FFFFFF36;
+    padding: 2px;
+    margin: 15px;
+}
+
+.titleseperator {
+    cursor: default;
+    background: #222;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    margin: 3mm;
+    padding: 1mm 1mm 1mm;
+    overflow: auto;
+    font-size: 30px;
+    border-bottom: solid 1mm #2BD006;
+    transition: border-bottom 1s;
+}
+
+.titleseperator:hover {
+    border-bottom: solid 1mm #fff;
+}
