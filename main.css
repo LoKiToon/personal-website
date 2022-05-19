@@ -113,19 +113,19 @@ li {
     background: #333;
 }
 
-.picturegroup {
+.mediagroup {
     line-height: 2.4;
     text-align: center;
 }
 
-.picture {
+.media {
     margin: 5px;
     display: inline;
     filter: drop-shadow(0px 0px 2px black);
     transition: filter 0.1s;
 }
 
-.picture:hover {
+.media:hover {
     filter: drop-shadow(0px 5px 5px black);
 }
 
