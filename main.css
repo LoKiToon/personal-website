@@ -131,13 +131,20 @@ li {
 
 .label {
     position: absolute;
-    font-size: 10px;
+    font-size: 17px;
     z-index: 1;
-    top: 50%;
+    bottom: 0%;
     left: 50%;
     width: 100%;
     transform: translate(-50%);
-    text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    text-shadow: 1px 1px 1px #0002, -1px -1px 1px #0002, -1px 1px 1px #0002, 1px -1px 1px #0002;
+    color: #ffffff50;
+    transition: 0.1s;
+}
+
+.label:hover {
+    color: #ffffffff;
+    text-shadow: 1px 1px 1px #000f, -1px -1px 1px #000f, -1px 1px 1px #000f, 1px -1px 1px #000f;
 }
 
 .seperator {
