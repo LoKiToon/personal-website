@@ -147,13 +147,13 @@ li {
     text-shadow: 1px 1px 1px #000f, -1px -1px 1px #000f, -1px 1px 1px #000f, 1px -1px 1px #000f;
 }
 
-.seperator {
+.separator {
     background: #FFFFFF36;
     padding: 1px;
     margin: 10px;
 }
 
-.titleseperator {
+.titleseparator {
     cursor: default;
     background: #222;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
@@ -168,6 +168,6 @@ li {
     transition: 1s;
 }
 
-.titleseperator:hover {
+.titleseparator:hover {
     border-bottom: solid 1mm #fff;
 }
