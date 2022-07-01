@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     line-height: 1;
     margin: 1px;
-    padding: 5em 5em 5em;
+    padding: 5em;
 }
 
 .head {
@@ -22,7 +22,7 @@ body {
     text-align: center;
     line-height: 1.5;
     margin: 1em;
-    padding: 1em 1em 1em;
+    padding: 1em;
     overflow: auto;
 }
 
@@ -34,18 +34,21 @@ body {
     font-size: 16px;
     line-height: 1.5;
     margin: 1em;
-    padding: 1em 1em 1em;
+    padding: 1em;
     overflow: auto;
 }
 
 .menu {
+    top: 0px;
+    position: sticky;
     background: #222;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
     color: #fff;
     text-align: center;
     margin: 1em;
-    padding: 1mm 1mm 1mm;
+    padding: 1mm;
     overflow: auto;
+    z-index: 1;
 }
 
 .menubutton {
