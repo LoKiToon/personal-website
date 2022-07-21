@@ -3,7 +3,7 @@ var SnowscarfEyeLVari = document.getElementById("SnowscarfEyeLValue")
 var SnowscarfEyeRVari = document.getElementById("SnowscarfEyeRValue")
 var SnowscarfMouthVari = document.getElementById("SnowscarfMouthValue")
 
-SnowscarfEyeLVari.oninput = function() {
+SnowscarfEyeLVari.oninput = function () {
     if (this.value == 1) {
         document.getElementById("SnowscarfEyeL").src = "resources/faces/Snowscarf/SnowscarfEyeL1.png"
     }
@@ -48,7 +48,7 @@ SnowscarfEyeLVari.oninput = function() {
     }
 }
 
-SnowscarfEyeRVari.oninput = function() {
+SnowscarfEyeRVari.oninput = function () {
     if (this.value == 1) {
         document.getElementById("SnowscarfEyeR").src = "resources/faces/Snowscarf/SnowscarfEyeR1.png"
     }
@@ -93,7 +93,7 @@ SnowscarfEyeRVari.oninput = function() {
     }
 }
 
-SnowscarfMouthVari.oninput = function() {
+SnowscarfMouthVari.oninput = function () {
     if (this.value == 1) {
         document.getElementById("SnowscarfMouth").src = "resources/faces/Snowscarf/SnowscarfMouth1.png"
     }
@@ -137,4 +137,60 @@ SnowscarfMouthVari.oninput = function() {
         document.getElementById("SnowscarfMouth").src = "resources/faces/Snowscarf/SnowscarfMouth14.png"
     }
 }
-//Joshy
+//Faux
+var FauxEyeVari = document.getElementById("FauxEyeValue")
+var FauxMouthVari = document.getElementById("FauxMouthValue")
+
+FauxEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye7.png"
+    }
+    else {
+        document.getElementById("FauxEye").src = "resources/faces/Faux/FauxEye8.png"
+    }
+}
+
+FauxMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth7.png"
+    }
+    else {
+        document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth8.png"
+    }
+}
