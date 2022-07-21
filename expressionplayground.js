@@ -308,3 +308,60 @@ AqhaMouthVari.oninput = function () {
         document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth8.png"
     }
 }
+//Jam
+var JamEyeVari = document.getElementById("JamEyeVari")
+var JamMouthVari = document.getElementById("JamMouthVari")
+
+JamEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye7.png"
+    }
+    else {
+        document.getElementById("JamEye").src = "resources/faces/Jam/JamEye8.png"
+    }
+}
+
+JamMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth7.png"
+    }
+    else {
+        document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth8.png"
+    }
+}
