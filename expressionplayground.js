@@ -251,3 +251,60 @@ SnowballMouthVari.oninput = function () {
         document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth8.png"
     }
 }
+//Aqha
+var AqhaEyeVari = document.getElementById("AqhaEyeVari")
+var AqhaMouthVari = document.getElementById("AqhaMouthVari")
+
+AqhaEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye7.png"
+    }
+    else {
+        document.getElementById("AqhaEye").src = "resources/faces/Aqha/AqhaEye8.png"
+    }
+}
+
+AqhaMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth7.png"
+    }
+    else {
+        document.getElementById("AqhaMouth").src = "resources/faces/Aqha/AqhaMouth8.png"
+    }
+}
