@@ -1,7 +1,7 @@
 //Snowscarf
-var SnowscarfEyeLVari = document.getElementById("SnowscarfEyeLValue")
-var SnowscarfEyeRVari = document.getElementById("SnowscarfEyeRValue")
-var SnowscarfMouthVari = document.getElementById("SnowscarfMouthValue")
+var SnowscarfEyeLVari = document.getElementById("SnowscarfEyeLVari")
+var SnowscarfEyeRVari = document.getElementById("SnowscarfEyeRVari")
+var SnowscarfMouthVari = document.getElementById("SnowscarfMouthVari")
 
 SnowscarfEyeLVari.oninput = function () {
     if (this.value == 1) {
@@ -138,8 +138,8 @@ SnowscarfMouthVari.oninput = function () {
     }
 }
 //Faux
-var FauxEyeVari = document.getElementById("FauxEyeValue")
-var FauxMouthVari = document.getElementById("FauxMouthValue")
+var FauxEyeVari = document.getElementById("FauxEyeVari")
+var FauxMouthVari = document.getElementById("FauxMouthVari")
 
 FauxEyeVari.oninput = function () {
     if (this.value == 1) {
@@ -192,5 +192,62 @@ FauxMouthVari.oninput = function () {
     }
     else {
         document.getElementById("FauxMouth").src = "resources/faces/Faux/FauxMouth8.png"
+    }
+}
+//Snowball
+var SnowballEyeVari = document.getElementById("SnowballEyeVari")
+var SnowballMouthVari = document.getElementById("SnowballMouthVari")
+
+SnowballEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye7.png"
+    }
+    else {
+        document.getElementById("SnowballEye").src = "resources/faces/Snowball/SnowballEye8.png"
+    }
+}
+
+SnowballMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth7.png"
+    }
+    else {
+        document.getElementById("SnowballMouth").src = "resources/faces/Snowball/SnowballMouth8.png"
     }
 }

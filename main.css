@@ -49,13 +49,13 @@ body {
     margin: 5px
 }
 
-.SnowscarfModel,.FauxModel {
+.SnowscarfModel,.FauxModel,.SnowballModel {
     width: 512px;
     height: 512px;
     margin: 10px;
 }
 
-.SnowscarfMAIN,.FauxMAIN {
+.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN {
     position: absolute;
     z-index: 1;
 }
@@ -70,12 +70,12 @@ body {
     z-index: 2;
 }
 
-.FauxEye {
+.FauxEye,.SnowballEye {
     position: absolute;
     z-index: 2;
 }
 
-.SnowscarfMouth,.FauxMouth {
+.SnowscarfMouth,.FauxMouth,.SnowballMouth {
     position: absolute;
     z-index: 2;
 }
