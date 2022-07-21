@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LoKiToon's personal website</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="title" content="LoKiToon's personal website">
+        <meta name="description" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://lokitoon.github.io/personal-website">
+        <meta property="og:title" content="LoKiToon's personal website">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="https://lokitoon.github.io/personal-website/resources/webthumbnail.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="menu">
+            <a class="menubutton" href="index.html" title="Back"><img src="resources/Back.svg"></a>
+        </div>
+        <div class="head">
+            <div class="title">Expression Playground</div>
+        </div>
+        <div class="main">
+            <h1>Welcome to the expression playground!</h1>
+            <div class="separator"></div>
+            <h2>Choose a model you like, and move the sliders to change their facial expressions.</h2>
+            <div class="mediagroup">
+                <div class="model">
+                    <h2>Snowscarf (<a href="https://twitter.com/Snowby3D">@Snowby3D</a>)</h2>
+                    <div class="SnowscarfModel">
+                        <div class="SnowscarfMAIN"><img src="resources/faces/Snowscarf/SnowscarfMAIN.png"></div>
+                        <div class="SnowscarfEyeL"><img src="resources/faces/Snowscarf/SnowscarfEyeL1.png", id="SnowscarfEyeL"></div>
+                        <div class="SnowscarfEyeR"><img src="resources/faces/Snowscarf/SnowscarfEyeR1.png", id="SnowscarfEyeR"></div>
+                        <div class="SnowscarfMouth"><img src="resources/faces/Snowscarf/SnowscarfMouth1.png", id="SnowscarfMouth"></div>
+                    </div>
+                    <div class="slidecontainer">
+                        <img src="resources/EyeLIcon.svg">
+                        <input type="range" min="1" max="14" value="1" class="slider" id="SnowscarfEyeLValue">
+                    </div>
+                    <div class="slidecontainer">
+                        <img src="resources/EyeRIcon.svg">
+                        <input type="range" min="1" max="14" value="1" class="slider" id="SnowscarfEyeRValue">
+                    </div>
+                    <div class="slidecontainer">
+                        <img src="resources/MouthIcon.svg">
+                        <input type="range" min="1" max="14" value="1" class="slider" id="SnowscarfMouthValue">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footertext">This website was hosted using <a href="https://pages.github.com/">GitHub Pages</a></div>
+            <div class="footertext"><a href="https://github.com/LoKiToon/personal-website">https://github.com/LoKiToon/personal-website</a></div>
+        </div>
+        <script src="expressionplayground.js"></script>
+    </body>
+</html>
