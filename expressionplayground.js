@@ -422,3 +422,60 @@ AutoMouthVari.oninput = function () {
         document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth8.png"
     }
 }
+//Wooly
+var WoolyEyeVari = document.getElementById("WoolyEyeVari")
+var WoolyMouthVari = document.getElementById("WoolyMouthVari")
+
+WoolyEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye7.png"
+    }
+    else {
+        document.getElementById("WoolyEye").src = "resources/faces/Wooly/WoolyEye8.png"
+    }
+}
+
+WoolyMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth7.png"
+    }
+    else {
+        document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth8.png"
+    }
+}
