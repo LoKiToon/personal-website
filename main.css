@@ -49,33 +49,28 @@ body {
     margin: 5px
 }
 
-.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel {
+.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel,.AutoModel {
     width: 512px;
     height: 512px;
     margin: 10px;
 }
 
-.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN {
+.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN,.AutoMAIN {
     position: absolute;
     z-index: 1;
 }
 
-.SnowscarfEyeR {
+.SnowscarfEyeL,.SnowscarfEyeR {
     position: absolute;
     z-index: 2;
 }
 
-.SnowscarfEyeL {
+.FauxEye,.SnowballEye,.AqhaEye,.JamEye,.AutoEye {
     position: absolute;
     z-index: 2;
 }
 
-.FauxEye,.SnowballEye,.AqhaEye,.JamEye {
-    position: absolute;
-    z-index: 2;
-}
-
-.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth {
+.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth,.AutoMouth {
     position: absolute;
     z-index: 2;
 }

@@ -365,3 +365,60 @@ JamMouthVari.oninput = function () {
         document.getElementById("JamMouth").src = "resources/faces/Jam/JamMouth8.png"
     }
 }
+//Auto
+var AutoEyeVari = document.getElementById("AutoEyeVari")
+var AutoMouthVari = document.getElementById("AutoMouthVari")
+
+AutoEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye7.png"
+    }
+    else {
+        document.getElementById("AutoEye").src = "resources/faces/Auto/AutoEye8.png"
+    }
+}
+
+AutoMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth7.png"
+    }
+    else {
+        document.getElementById("AutoMouth").src = "resources/faces/Auto/AutoMouth8.png"
+    }
+}
