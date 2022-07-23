@@ -564,3 +564,60 @@ StevieMouthVari.oninput = function () {
         document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth8.png"
     }
 }
+//Boingy
+var BoingyEyeVari = document.getElementById("BoingyEyeVari")
+var BoingyMouthVari = document.getElementById("BoingyMouthVari")
+
+BoingyEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye7.png"
+    }
+    else {
+        document.getElementById("BoingyEye").src = "resources/faces/Boingy/BoingyEye8.png"
+    }
+}
+
+BoingyMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth7.png"
+    }
+    else {
+        document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth8.png"
+    }
+}
