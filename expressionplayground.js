@@ -479,3 +479,88 @@ WoolyMouthVari.oninput = function () {
         document.getElementById("WoolyMouth").src = "resources/faces/Wooly/WoolyMouth8.png"
     }
 }
+//Stevie
+var StevieEyeLVari = document.getElementById("StevieEyeLVari")
+var StevieEyeRVari = document.getElementById("StevieEyeRVari")
+var StevieMouthVari = document.getElementById("StevieMouthVari")
+
+StevieEyeLVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL7.png"
+    }
+    else {
+        document.getElementById("StevieEyeL").src = "resources/faces/Stevie/StevieEyeL8.png"
+    }
+}
+
+StevieEyeRVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR7.png"
+    }
+    else {
+        document.getElementById("StevieEyeR").src = "resources/faces/Stevie/StevieEyeR8.png"
+    }
+}
+
+StevieMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth7.png"
+    }
+    else {
+        document.getElementById("StevieMouth").src = "resources/faces/Stevie/StevieMouth8.png"
+    }
+}

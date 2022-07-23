@@ -53,18 +53,18 @@ body {
     margin-bottom: 7px;
 }
 
-.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel,.AutoModel,.WoolyModel {
+.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel,.AutoModel,.WoolyModel,.StevieModel {
     width: 512px;
     height: 512px;
     margin: 10px;
 }
 
-.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN,.AutoMAIN,.WoolyMAIN {
+.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN,.AutoMAIN,.WoolyMAIN,.StevieMAIN {
     position: absolute;
     z-index: 1;
 }
 
-.SnowscarfEyeL,.SnowscarfEyeR {
+.SnowscarfEyeL,.SnowscarfEyeR,.StevieEyeL,.StevieEyeR {
     position: absolute;
     z-index: 2;
 }
@@ -74,9 +74,9 @@ body {
     z-index: 2;
 }
 
-.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth,.AutoMouth,.WoolyMouth {
+.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth,.AutoMouth,.WoolyMouth,.StevieMouth {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 .slidecontainer {
@@ -143,7 +143,7 @@ body {
     margin: 1em;
     padding: 1mm;
     overflow: auto;
-    z-index: 3;
+    z-index: 4;
 }
 
 .menubutton {
@@ -154,6 +154,10 @@ body {
 
 .menubutton:hover {
     filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.menubutton:active {
+    filter: drop-shadow(0px 0px 50px #fff);
 }
 
 .title {
@@ -214,6 +218,40 @@ li {
 .mediagroup {
     line-height: 2.4;
     text-align: center;
+}
+
+pre,.player {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    background-color: #111;
+    padding: 4mm;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border: 1px solid #333;
+    border-radius: 1em;
+    transition: 0.1s;
+    line-height: 1;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.player {
+    line-height: 0;
+    margin: 5px;
+}
+
+.player:hover {
+    background: #1f1f1f;
+    cursor: pointer;
+}
+
+.player:active {
+    background: #0f0f0f;
+}
+
+audio {
+    width: 500px;
 }
 
 .media {
