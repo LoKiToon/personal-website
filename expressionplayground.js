@@ -678,3 +678,60 @@ MineaMouthVari.oninput = function () {
         document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth8.png"
     }
 }
+//Magnitchi
+var MagnitchiEyeVari = document.getElementById("MagnitchiEyeVari")
+var MagnitchiMouthVari = document.getElementById("MagnitchiMouthVari")
+
+MagnitchiEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye7.png"
+    }
+    else {
+        document.getElementById("MagnitchiEye").src = "resources/faces/Magnitchi/MagnitchiEye8.png"
+    }
+}
+
+MagnitchiMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth7.png"
+    }
+    else {
+        document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth8.png"
+    }
+}
