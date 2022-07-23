@@ -621,3 +621,60 @@ BoingyMouthVari.oninput = function () {
         document.getElementById("BoingyMouth").src = "resources/faces/Boingy/BoingyMouth8.png"
     }
 }
+//Minea
+var MineaEyeVari = document.getElementById("MineaEyeVari")
+var MineaMouthVari = document.getElementById("MineaMouthVari")
+
+MineaEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye7.png"
+    }
+    else {
+        document.getElementById("MineaEye").src = "resources/faces/Minea/MineaEye8.png"
+    }
+}
+
+MineaMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth7.png"
+    }
+    else {
+        document.getElementById("MineaMouth").src = "resources/faces/Minea/MineaMouth8.png"
+    }
+}
