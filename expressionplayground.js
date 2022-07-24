@@ -1,4 +1,26 @@
 //Snowscarf
+//Preload images
+for (i=2;i<=14;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Snowscarf/SnowscarfEyeL${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=14;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Snowscarf/SnowscarfEyeR${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=14;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Snowscarf/SnowscarfMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var SnowscarfEyeLVari = document.getElementById("SnowscarfEyeLVari")
 var SnowscarfEyeRVari = document.getElementById("SnowscarfEyeRVari")
 var SnowscarfMouthVari = document.getElementById("SnowscarfMouthVari")
@@ -138,6 +160,21 @@ SnowscarfMouthVari.oninput = function () {
     }
 }
 //Faux
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Faux/FauxEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Faux/FauxMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var FauxEyeVari = document.getElementById("FauxEyeVari")
 var FauxMouthVari = document.getElementById("FauxMouthVari")
 
@@ -195,6 +232,21 @@ FauxMouthVari.oninput = function () {
     }
 }
 //Snowball
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Snowball/SnowballEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Snowball/SnowballMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var SnowballEyeVari = document.getElementById("SnowballEyeVari")
 var SnowballMouthVari = document.getElementById("SnowballMouthVari")
 
@@ -252,6 +304,21 @@ SnowballMouthVari.oninput = function () {
     }
 }
 //Aqha
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Aqha/AqhaEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Aqha/AqhaMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var AqhaEyeVari = document.getElementById("AqhaEyeVari")
 var AqhaMouthVari = document.getElementById("AqhaMouthVari")
 
@@ -309,6 +376,21 @@ AqhaMouthVari.oninput = function () {
     }
 }
 //Jam
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Jam/JamEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Jam/JamMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var JamEyeVari = document.getElementById("JamEyeVari")
 var JamMouthVari = document.getElementById("JamMouthVari")
 
@@ -366,6 +448,21 @@ JamMouthVari.oninput = function () {
     }
 }
 //Auto
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Auto/AutoEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Auto/AutoMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var AutoEyeVari = document.getElementById("AutoEyeVari")
 var AutoMouthVari = document.getElementById("AutoMouthVari")
 
@@ -423,6 +520,21 @@ AutoMouthVari.oninput = function () {
     }
 }
 //Wooly
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Wooly/WoolyEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Wooly/WoolyMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var WoolyEyeVari = document.getElementById("WoolyEyeVari")
 var WoolyMouthVari = document.getElementById("WoolyMouthVari")
 
@@ -480,6 +592,28 @@ WoolyMouthVari.oninput = function () {
     }
 }
 //Stevie
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Stevie/StevieEyeL${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Stevie/StevieEyeR${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Stevie/StevieMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var StevieEyeLVari = document.getElementById("StevieEyeLVari")
 var StevieEyeRVari = document.getElementById("StevieEyeRVari")
 var StevieMouthVari = document.getElementById("StevieMouthVari")
@@ -565,6 +699,21 @@ StevieMouthVari.oninput = function () {
     }
 }
 //Boingy
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Boingy/BoingyEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Boingy/BoingyMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var BoingyEyeVari = document.getElementById("BoingyEyeVari")
 var BoingyMouthVari = document.getElementById("BoingyMouthVari")
 
@@ -622,6 +771,21 @@ BoingyMouthVari.oninput = function () {
     }
 }
 //Minea
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Minea/MineaEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Minea/MineaMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var MineaEyeVari = document.getElementById("MineaEyeVari")
 var MineaMouthVari = document.getElementById("MineaMouthVari")
 
@@ -679,6 +843,21 @@ MineaMouthVari.oninput = function () {
     }
 }
 //Magnitchi
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Magnitchi/MagnitchiEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Magnitchi/MagnitchiMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var MagnitchiEyeVari = document.getElementById("MagnitchiEyeVari")
 var MagnitchiMouthVari = document.getElementById("MagnitchiMouthVari")
 
@@ -736,6 +915,21 @@ MagnitchiMouthVari.oninput = function () {
     }
 }
 //Puff
+//Preload images
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Puff/PuffEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Puff/PuffMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var PuffEyeVari = document.getElementById("PuffEyeVari")
 var PuffMouthVari = document.getElementById("PuffMouthVari")
 
@@ -793,6 +987,14 @@ PuffMouthVari.oninput = function () {
     }
 }
 //Takhwif
+//Preload images
+for (i=2;i<=15;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Takhwif/TakhwifFace${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var TakhwifFaceVari = document.getElementById("TakhwifFaceVari")
 
 TakhwifFaceVari.oninput = function () {
@@ -843,6 +1045,14 @@ TakhwifFaceVari.oninput = function () {
     }
 }
 //AlAkhdar
+//Preload images
+for (i=2;i<=10;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/AlAkhdar/AlAkhdarFace${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var AlAkhdarFaceVari = document.getElementById("AlAkhdarFaceVari")
 
 AlAkhdarFaceVari.oninput = function () {
@@ -877,7 +1087,22 @@ AlAkhdarFaceVari.oninput = function () {
         document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace10.png"
     }
 }
-//Jordan    
+//Jordan
+//Preload images
+for (i=2;i<=11;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Jordan/JordanEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=11;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Jordan/JordanMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+} 
 var JordanEyeVari = document.getElementById("JordanEyeVari")
 var JordanMouthVari = document.getElementById("JordanMouthVari")
 
@@ -953,6 +1178,14 @@ JordanMouthVari.oninput = function () {
     }
 }
 //Blueberri
+//Preload images
+for (i=2;i<=13;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Blueberri/BlueberriFace${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
 var BlueberriFaceVari = document.getElementById("BlueberriFaceVari")
 
 BlueberriFaceVari.oninput = function () {
