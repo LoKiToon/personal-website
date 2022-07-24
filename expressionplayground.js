@@ -284,6 +284,119 @@ JoshyMouthVari.oninput = function () {
         document.getElementById("JoshyMouth").src = "resources/faces/Joshy/JoshyMouth10.png"
     }
 }
+//James
+//Preload images
+for (i=2;i<=10;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/James/JamesFace${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+var JamesFaceVari = document.getElementById("JamesFaceVari")
+
+JamesFaceVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace9.png"
+    }
+    else {
+        document.getElementById("JamesFace").src = "resources/faces/James/JamesFace10.png"
+    }
+}
+//Eggy
+//Preload images
+for (i=2;i<=7;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Eggy/EggyEye${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+for (i=2;i<=8;i++) {
+    var preloadLink = document.createElement("link")
+    preloadLink.href = `resources/faces/Eggy/EggyMouth${i}.png`
+    preloadLink.rel = "preload"
+    preloadLink.as = "image"
+    document.head.appendChild(preloadLink)
+}
+var EggyEyeVari = document.getElementById("EggyEyeVari")
+var EggyMouthVari = document.getElementById("EggyMouthVari")
+
+EggyEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye6.png"
+    }
+    else {
+        document.getElementById("EggyEye").src = "resources/faces/Eggy/EggyEye7.png"
+    }
+}
+
+EggyMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth7.png"
+    }
+    else {
+        document.getElementById("EggyMouth").src = "resources/faces/Eggy/EggyMouth8.png"
+    }
+    
+}
 //Faux
 //Preload images
 for (i=2;i<=8;i++) {
