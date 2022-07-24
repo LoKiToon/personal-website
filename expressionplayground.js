@@ -952,3 +952,47 @@ JordanMouthVari.oninput = function () {
         document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth11.png"
     }
 }
+//Blueberri
+var BlueberriFaceVari = document.getElementById("BlueberriFaceVari")
+
+BlueberriFaceVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace9.png"
+    }
+    else if (this.value == 10) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace10.png"
+    }
+    else if (this.value == 11) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace11.png"
+    }
+    else if (this.value == 12) {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace12.png"
+    }
+    else {
+        document.getElementById("BlueberriFace").src = "resources/faces/Blueberri/BlueberriFace13.png"
+    }
+}
