@@ -877,3 +877,78 @@ AlAkhdarFaceVari.oninput = function () {
         document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace10.png"
     }
 }
+//Jordan    
+var JordanEyeVari = document.getElementById("JordanEyeVari")
+var JordanMouthVari = document.getElementById("JordanMouthVari")
+
+JordanEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye9.png"
+    }
+    else if (this.value == 10) {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye10.png"
+    }
+    else {
+        document.getElementById("JordanEye").src = "resources/faces/Jordan/JordanEye11.png"
+    }
+}
+
+JordanMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth9.png"
+    }
+    else if (this.value == 10) {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth10.png"
+    }
+    else {
+        document.getElementById("JordanMouth").src = "resources/faces/Jordan/JordanMouth11.png"
+    }
+}
