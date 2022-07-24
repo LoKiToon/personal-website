@@ -735,3 +735,60 @@ MagnitchiMouthVari.oninput = function () {
         document.getElementById("MagnitchiMouth").src = "resources/faces/Magnitchi/MagnitchiMouth8.png"
     }
 }
+//Puff
+var PuffEyeVari = document.getElementById("PuffEyeVari")
+var PuffMouthVari = document.getElementById("PuffMouthVari")
+
+PuffEyeVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye7.png"
+    }
+    else {
+        document.getElementById("PuffEye").src = "resources/faces/Puff/PuffEye8.png"
+    }
+}
+
+PuffMouthVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth7.png"
+    }
+    else {
+        document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth8.png"
+    }
+}

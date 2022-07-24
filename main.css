@@ -53,13 +53,13 @@ body {
     margin-bottom: 7px;
 }
 
-.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel,.AutoModel,.WoolyModel,.StevieModel,.BoingyModel,.MineaModel,.MagnitchiModel {
+.SnowscarfModel,.FauxModel,.SnowballModel,.AqhaModel,.JamModel,.AutoModel,.WoolyModel,.StevieModel,.BoingyModel,.MineaModel,.MagnitchiModel,.PuffModel {
     width: 512px;
     height: 512px;
     margin: 10px;
 }
 
-.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN,.AutoMAIN,.WoolyMAIN,.StevieMAIN,.BoingyMAIN,.MineaMAIN,.MagnitchiMAIN {
+.SnowscarfMAIN,.FauxMAIN,.SnowballMAIN,.AqhaMAIN,.JamMAIN,.AutoMAIN,.WoolyMAIN,.StevieMAIN,.BoingyMAIN,.MineaMAIN,.MagnitchiMAIN,.PuffMAIN {
     position: absolute;
     z-index: 1;
 }
@@ -69,12 +69,12 @@ body {
     z-index: 2;
 }
 
-.FauxEye,.SnowballEye,.AqhaEye,.JamEye,.AutoEye,.WoolyEye,.BoingyEye,.MineaEye,.MagnitchiEye {
+.FauxEye,.SnowballEye,.AqhaEye,.JamEye,.AutoEye,.WoolyEye,.BoingyEye,.MineaEye,.MagnitchiEye,.PuffEye {
     position: absolute;
     z-index: 2;
 }
 
-.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth,.AutoMouth,.WoolyMouth,.StevieMouth,.BoingyMouth,.MineaMouth,.MagnitchiMouth {
+.SnowscarfMouth,.FauxMouth,.SnowballMouth,.AqhaMouth,.JamMouth,.AutoMouth,.WoolyMouth,.StevieMouth,.BoingyMouth,.MineaMouth,.MagnitchiMouth,.PuffMouth {
     position: absolute;
     z-index: 3;
 }
