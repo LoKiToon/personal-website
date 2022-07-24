@@ -792,3 +792,88 @@ PuffMouthVari.oninput = function () {
         document.getElementById("PuffMouth").src = "resources/faces/Puff/PuffMouth8.png"
     }
 }
+//Takhwif
+var TakhwifFaceVari = document.getElementById("TakhwifFaceVari")
+
+TakhwifFaceVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace9.png"
+    }
+    else if (this.value == 10) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace10.png"
+    }
+    else if (this.value == 11) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace11.png"
+    }
+    else if (this.value == 12) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace12.png"
+    }
+    else if (this.value == 13) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace13.png"
+    }
+    else if (this.value == 14) {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace14.png"
+    }
+    else {
+        document.getElementById("TakhwifFace").src = "resources/faces/Takhwif/TakhwifFace15.png"
+    }
+}
+//AlAkhdar
+var AlAkhdarFaceVari = document.getElementById("AlAkhdarFaceVari")
+
+AlAkhdarFaceVari.oninput = function () {
+    if (this.value == 1) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace1.png"
+    }
+    else if (this.value == 2) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace2.png"
+    }
+    else if (this.value == 3) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace3.png"
+    }
+    else if (this.value == 4) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace4.png"
+    }
+    else if (this.value == 5) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace5.png"
+    }
+    else if (this.value == 6) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace6.png"
+    }
+    else if (this.value == 7) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace7.png"
+    }
+    else if (this.value == 8) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace8.png"
+    }
+    else if (this.value == 9) {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace9.png"
+    }
+    else {
+        document.getElementById("AlAkhdarFace").src = "resources/faces/AlAkhdar/AlAkhdarFace10.png"
+    }
+}
