@@ -105,8 +105,8 @@ body {
     appearance: none;
     width: 25px;
     height: 25px;
-    border: none;
-    border-radius: 0%;
+    border: 1px solid #666;
+    border-radius: 1mm;
     background: #333;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
     transition: 0.1s;
@@ -114,10 +114,12 @@ body {
 
 .slider::-webkit-slider-thumb:hover {
     background: #444;
+    transform: scale(1.5,1.5);
 }
 
 .slider::-webkit-slider-thumb:active {
     background: #222;
+    transform: scale(1.5,1.5);
 }
 
 .slider::-moz-range-thumb {
@@ -132,10 +134,12 @@ body {
 
 .slider::-moz-range-thumb:hover {
     background: #444;
+    transform: scale(1.5,1.5);
 }
 
 .slider::-moz-range-thumb:active {
     background: #222;
+    transform: scale(1.5,1.5);
 }
 
 .menu {
