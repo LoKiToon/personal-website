@@ -274,7 +274,7 @@ audio {
     filter: drop-shadow(0px 5px 5px black);
 }
 
-.label {
+.label,.labelR,.labelL {
     position: absolute;
     font-size: 20px;
     z-index: 1;
@@ -287,9 +287,19 @@ audio {
     transition: 0.1s;
 }
 
-.label:hover {
+.label:hover,.labelR:hover,.labelL:hover {
     color: #ffffffff;
     text-shadow: 1px 1px 1px #000f, -1px -1px 1px #000f, -1px 1px 1px #000f, 1px -1px 1px #000f;
+}
+
+.labelL {
+    width: 50%;
+    left: 25%;
+}
+
+.labelR {
+    width: 50%;
+    left: 75%;
 }
 
 .separator {
